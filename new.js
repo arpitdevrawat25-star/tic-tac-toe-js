@@ -1,8 +1,7 @@
 let boxe = document.querySelectorAll(".box");
 let rest = document.querySelector("#box2");
-let newbton = document.querySelector(".newid");
+let newbutton = document.querySelector(".newid");
 let ms = document.querySelector(".message");
-let cnt = document.querySelector(".msg");
 
 let turn = true;
 
@@ -76,5 +75,6 @@ const winner = (win) => {
     disable();
 }
 
-newbton.addEventListener("click",resetgame);
+newbutton.addEventListener("click",resetgame);
+
 rest.addEventListener("click",resetgame);
